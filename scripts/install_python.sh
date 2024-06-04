@@ -28,5 +28,5 @@ git clone https://github.com/devopsinsiders/todoapp-backend-py.git
 cd /home/devopsadmin/todoapp-backend-py
 echo CONNECTION_STRING="Driver={ODBC Driver 17 for SQL Server};Server=tcp:devopsinssrv1.database.windows.net,1433;Database=todoappdb;Uid=devopsadmin;Pwd=P@ssw01rd@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;" > .env
 pip install -r requirements.txt
-pm2 start app.
+pm2 start app.py
 '
