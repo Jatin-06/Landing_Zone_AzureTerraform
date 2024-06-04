@@ -5,4 +5,4 @@ set -euo pipefail
 echo "[INFO] Installing Nginx"
 
 sudo apt update
-sudo apt install nginx -y
+sudo apt install nginx 
